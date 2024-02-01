@@ -1,0 +1,120 @@
+/* styles.css */
+
+body {
+    background-color: #f4f4f8;
+    color: #333;
+    line-height: 1.5;
+    padding: 0;
+}
+
+h3, h4, h5, h6 {
+    color: #424242;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+section {
+    background-color: #f6f5f5;
+    padding: 10px;
+    border-radius: 6px; /* 添加圆角 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 轻微的阴影 */
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #424242
+}
+
+p {
+    margin-bottom: 20px;
+    color: #424242
+}
+
+button {
+    background-color: #23b4d9; /* 选中的宁静蓝色 */
+    color: #fff; /* 按钮上的文字颜色 */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #125571; /* 按钮hover状态时的颜色 */
+}
+
+
+a {
+    color: #0099CC;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #006699;
+}
+
+header {
+    width:100%;
+    margin-bottom: 20px;
+    padding: 10px 0;
+    text-align: left;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+header nav{
+    width:100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+main {
+    margin: 40px;
+    padding: 10px;
+}
+
+footer {
+    background-color: #F1F1F1;
+    text-align: left;
+    padding: 0px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-item {
+    flex: 1;
+    text-align: center;
+  }
+  
+  #language-selector {
+    width: 100%;
+    max-width: 200px;
+  }
+
+  .iframe-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 也可以使用其他比例来满足你的需求 */
+  }
+  
+  .iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }  

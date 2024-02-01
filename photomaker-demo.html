@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Photomaker: The top online photo maker for global users, offering diverse features for all your photo creation needs.">
+    <title>Photomaker: Online Global Photo Maker</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script>
+        // 通过id获取下拉列表
+        var selector = document.getElementById('language-selector');
+        
+        // 添加change事件的监听器
+        selector.addEventListener('change', function() {
+          // 当用户选择一个选项，弹出一个消息框
+          alert('你选择了 ' + this.value);
+        });
+    </script>
+</head>
+<body>
+    <header>
+    <nav>  
+    <h1 class="logo">
+    <a href="./">Photo Maker</a>
+    </h1>
+       
+    </nav> 
+    </header>
+<main>
+    <div class="iframe-container">
+        <iframe src="https://tencentarc-photomaker.hf.space" frameborder="0"></iframe>
+    </div>
+</main>
+
+<footer>
+        <div class="footer-content">
+            <div class="footer-item">
+                <p><a href="./" style="color:#333;">PhotoMaker</a>© 2024 . All rights reserved</p>
+            </div>
+            <div class="footer-item">
+                <select id="language-selector">
+                    <option value="en">English (EN)</option>
+                    <option value="zh">中文 (ZH)</option>
+                    <option value="bn">বাংলা (BD)</option>
+                    <option value="ur">اردو (PK)</option>
+                    <option value="hi">हिन्दी (ID)</option>
+                </select>
+            </div>
+        </div>
+</footer>
+</body>
+</html>
