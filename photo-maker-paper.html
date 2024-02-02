@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Maker Paper</title>
+    <meta name="description" content="Need to print your photos? No worries, Photomaker can help you create high-quality images suitable for printing.">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script>
+        // 通过id获取下拉列表
+        var selector = document.getElementById('language-selector');
+        
+        // 添加change事件的监听器
+        selector.addEventListener('change', function() {
+          // 当用户选择一个选项，弹出一个消息框
+          alert('你选择了 ' + this.value);
+        });
+    </script>
+</head>
+<body>
+    <header>
+    <nav>  
+    <a href="./">Photo Maker</a>
+       
+    </nav> 
+    </header>
+<main>
+    <section>
+        <h1 style="text-align:center;"><a href="./photo-maker-paper.html"></a>Photo Maker Paper</h1>
+    </section>
+
+
+<div class="space-y-8">
+    <form action="mailto:jalsmida@outlook.com" method="GET" enctype="text/plain"></form>
+    <div class="space-y-2">
+      <h2 class="text-3xl font-bold">Contact Us</h2>
+      <p class="text-gray-500 dark:text-gray-400">
+        Fill out the form below and we'll get back to you as soon as possible.
+      </p>
+    </div>
+    <div class="space-y-4">
+      <div class="space-y-2">
+        <label
+          class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+          for="name"
+        >
+          Name
+        </label>
+        <input
+          class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+          id="name"
+          placeholder="Enter your name"
+        />
+      </div>
+      <div class="space-y-2">
+        <label
+          class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+          for="email"
+        >
+          Email
+        </label>
+        <input
+          class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+          id="email"
+          placeholder="Enter your email"
+          type="email"
+        />
+      </div>
+      <div class="space-y-2">
+        <label
+          class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+          for="subject"
+        >
+          Subject
+        </label>
+        <input
+          class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+          id="subject"
+          placeholder="Enter the subject"
+        />
+      </div>
+      <div class="space-y-2">
+        <label
+          class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+          for="message"
+        >
+          Message
+        </label>
+        <textarea
+          class="flex w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 min-h-[100px]"
+          id="message"
+          placeholder="Enter your message"
+        ></textarea>
+        <input type="submit" value="Submit">
+      </div>
+    </div>
+    </form>
+  </div>
+</main>
+  
+<footer>
+    <div class="footer-content">
+        <div class="footer-item">
+            <p><a href="./" style="color:#333;">PhotoMaker</a>© 2024 . All rights reserved</p>
+        </div>
+        <div class="footer-item">
+            <select id="language-selector">
+                <option value="en">English (EN)</option>
+                <option value="zh">中文 (ZH)</option>
+                <option value="bn">বাংলা (BD)</option>
+                <option value="ur">اردو (PK)</option>
+                <option value="hi">हिन्दी (ID)</option>
+            </select>
+        </div>
+    </div>
+
+    
+</footer>
+<div style="display:none;">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9Q9G7GWGW8"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-9Q9G7GWGW8');
+</script>
+</div>
+</body>
+</html>
